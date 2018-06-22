@@ -11,26 +11,26 @@ namespace RabbitMQ
     {
         #region Constructor & Private members
 
-        private readonly string _hostName = "srvcldognd002.fr.world.socgen";
-        private readonly string _userName = "natTomcat";
-        private readonly string _password = "Tomcat@777";
-        private readonly string _virtualHost = "tct";
+        private readonly string _hostName = "server.in.server.com";
+        private readonly string _userName = "userName";
+        private readonly string _password = "passWord";
+        private readonly string _virtualHost = "hostName";
         private IModel _model;
 
-        private readonly string _exchangeName = "CashAccount.MyExchange";
-        private readonly string _queueName = "CashAccount.MyQueue";
-        private readonly string _secondQueueName = "CashAccount.MySecondQueue";
-        private readonly string _thirdQueueName = "CashAccount.MyThirdQueue";
-        private readonly string _fourthQueueName = "CashAccount.MyFourthQueue";
+        private readonly string _exchangeName = "Sample.MyExchange";
+        private readonly string _queueName = "Sample.MyQueue";
+        private readonly string _secondQueueName = "Sample.MySecondQueue";
+        private readonly string _thirdQueueName = "Sample.MyThirdQueue";
+        private readonly string _fourthQueueName = "Sample.MyFourthQueue";
 
-        private readonly string _deadLetterExchangeName = "CashAccount.DeadLetterExchange";
-        private readonly string _deadLetterQueueName = "CashAccount.DeadLetterQueue";
+        private readonly string _deadLetterExchangeName = "Sample.DeadLetterExchange";
+        private readonly string _deadLetterQueueName = "Sample.DeadLetterQueue";
 
-        private readonly string _routingFailureExchangeName = "CashAccount.RoutingFailureExchange";
-        private readonly string _routingFailureQueueName = "CashAccount.RoutingFailureQueue";
+        private readonly string _routingFailureExchangeName = "Sample.RoutingFailureExchange";
+        private readonly string _routingFailureQueueName = "Sample.RoutingFailureQueue";
 
-        private readonly string _holdingExchangeName = "CashAccount.HoldingExchange";
-        private readonly string _holdingQueueName = "CashAccount.HoldingQueue";
+        private readonly string _holdingExchangeName = "Sample.HoldingExchange";
+        private readonly string _holdingQueueName = "Sample.HoldingQueue";
 
         private Dictionary<string, object> _arguements = null;
 
