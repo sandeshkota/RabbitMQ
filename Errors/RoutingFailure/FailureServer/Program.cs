@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,13 @@ namespace FailureServer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting RabbitMQ queue processor");
+            Console.WriteLine();
+
+            var queueProcessor = new FailureConsumer() { Enabled = true };
+            queueProcessor.Start();
+
+            Console.ReadLine();
         }
     }
 }
