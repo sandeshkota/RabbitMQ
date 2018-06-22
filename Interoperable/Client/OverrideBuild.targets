@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<SvcUtilPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools</SvcUtilPath>
+	</PropertyGroup>
+
+	<Target Name="BeforeBuild">
+		<Exec Command='"$(SvcUtilPath)\svcutil" /dconly ..\Contract\Message.xsd /language:c# /serializable /n:http://tempuri.org,Client.Contract' />
+	</Target>
+
+</Project>
