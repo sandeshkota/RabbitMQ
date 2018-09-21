@@ -13,3 +13,5 @@ _password = "passWord";
 _virtualHost = "hostName";  
   
 *Interoperable not working
+
+For more details Refer [document](https://github.com/ILearny/Standards/wiki/Rabbit-MQ)
