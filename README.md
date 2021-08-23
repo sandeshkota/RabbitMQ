@@ -14,4 +14,4 @@ _virtualHost = "hostName";
   
 *Interoperable not working
 
-For more details Refer [document](https://github.com/ILearny/Standards/wiki/Rabbit-MQ)
+For more details Refer [document](https://github.com/sandeshkota/RabbitMQ/wiki)
